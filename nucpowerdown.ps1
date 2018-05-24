@@ -10,6 +10,6 @@ $user = "replace this with your username"
 $pwd = "replace this with cleartext password"
 
 Connect-VIServer -Server $server -Protocol https -User $user -Password $password
-Get-VM | Suspend-VM
-Set-VMHost -State Maintenance
-Stop-VMHost -config $false
+Get-VM | Suspend-VM -confirm $false
+Set-VMHost -State Maintenance -confirm $false
+Stop-VMHost -confirm $false
