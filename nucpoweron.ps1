@@ -1,6 +1,7 @@
 #########################
-# Complete Power-Off of NUC
-# Avoids corruption by safely shutting down VMware environment
+# Complete Power-On of NUC VMs
+# Checks state of host, corrects
+# Powers on all VMs
 # Author: Travis Newshott (travis.newshott@firemon.com)
 # 24May18
 #########################
