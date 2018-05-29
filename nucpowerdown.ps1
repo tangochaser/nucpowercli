@@ -5,9 +5,9 @@
 # 24May18
 #########################
 
-$server = "192.168.159.10"
-$user = "root"
-$pwd = "FireMon1!"
+$server = "IP_ADDRESS"
+$user = "USER"
+$pwd = "PASSWORD"
 
 Connect-VIServer -Server $server -Protocol https -User $user -Password $pwd
 $vmlist = Get-VM
